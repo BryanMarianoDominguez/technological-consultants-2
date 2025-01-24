@@ -17,3 +17,17 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 20vh 50vh 30vh;
 }
+
+
+.footer {
+    grid-area: footer;
+    background-color: #FF7F99;
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0.4rem;
+    gap: 0.4rem;
+    place-items: center;
+}
