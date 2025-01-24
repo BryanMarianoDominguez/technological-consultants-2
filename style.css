@@ -74,3 +74,43 @@ body {
     gap: 0.4rem;
     place-items: center;
 }
+
+.consultant-card {
+    width: 100%;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.consultant-card__picture {
+    height: 7rem;
+}
+
+.consultant-card__info {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.consultant-card__name {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.consultant-card__speciality {
+    font-size: 0.6rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.consultant-card__link-img {
+    height: 1.2rem;
+}
