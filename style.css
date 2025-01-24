@@ -1,0 +1,19 @@
+
+
+* {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 50vh 30vh;
+}
