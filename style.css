@@ -18,26 +18,32 @@ body {
     grid-template-rows: 20vh 50vh 30vh;
 }
 
-
-.home {
+main {
     grid-area: main;
+    height: 50vh;
+    overflow: scroll;
+}
+
+
+.home, .consultants-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     height: 50vh;
     justify-content: center;
+    padding: 0.4rem;
 }
 
 
-.home__title {
+.home__title, .consultants-page__name {
     color: #D06077;
     font-size: 2.8rem;
     font-weight: 400;
     text-align: center;
 }
 
-.home__subtitle {
+.home__subtitle, .consultants-page__speciality {
     color: #000000;
     font-size: 1rem;
     font-weight: 200;
@@ -53,7 +59,26 @@ body {
      font-weight: 600;
 }
 
-.home__container-img {
+.home__container-img, .consultants-page__container-img {
     background-color: #FF8EA8;
     border-radius: 100% 0 100% 100%;
+    height: 12rem;
+    width: 12rem;
+}
+
+.consultants-page__contact {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.consultants-page__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.8rem;
+}
+
+.consultants-page__img {
+    width: 100%;
 }
